@@ -1,0 +1,359 @@
+*{
+	margin: 10; padding: 10;
+}
+
+body{
+	font-family: calibri;
+	font-weight: normal;
+	font-size: 100%;
+	background-color: #eaedf2;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+ul {list-style: none;}
+
+ul li {display: inline-block;}
+
+a{
+	text-decoration: none;
+	color: #747c87 ;
+}
+input{
+	border: none;
+	font-size: 100%;
+	color:#eaedf2;
+}
+
+#left{
+	width: 50%;
+	float: left;
+	height: 100%;
+}
+#right{
+	width :50%;
+	float: right ;
+	height: 100%;
+}
+ /*************HEADER*************/
+#menu {
+	background-color: #323a45 ;
+	border-radius: 5px;
+	margin-right: 7%;
+	margin-left: 7%;
+}
+#menu ul {
+	display: none;
+}
+
+#menu table td:nth-child(1) {
+	border-right: 1px solid #747c87;
+}
+#menu input {
+	width: 80%;
+	background-color: #222931;
+	border: none;
+	color:#eaedf2;
+	height: 90%;
+}
+#search {
+	width: 100%;
+	background-color: #222931;
+	border-radius: 5px;
+	height:35px;
+}
+
+.im1{
+	background-color: #222931;
+	margin-right: 2%;
+	margin-left: 2%;
+	width: 7%;
+}
+
+#menu  a:hover{
+	color:rgb(51, 255, 0);
+}
+#menu table td:hover:nth-child(2){
+border-bottom: 2px solid  rgb(51, 255, 0);
+}#menu table td:hover:nth-child(3){
+border-bottom: 2px solid  rgb(51, 255, 0);
+}#menu table td:hover:nth-child(4){
+border-bottom: 2px solid  rgb(51, 255, 0);
+}#menu table td:hover:nth-child(5){
+border-bottom: 2px solid  rgb(51, 255, 0);
+}
+#searchbar{display: none;}
+
+/*********SOCIAL MEDIA**********/
+#Social ul {
+	margin-left: 7%;
+}
+#Social ul li {
+	background-color: #323a45;
+	border-radius: 5px;
+	margin-right: 5.7%;
+	text-align: center;
+	width: 20%;
+	color: #eaedf2;
+	font-size: 85%;
+}
+#Social img {
+	margin-top: 10%;
+}
+#Social {
+	margin-top:5%;
+}
+
+/************LOGIN*************/
+
+#login li {
+	margin-left: 14%;
+	width: 63%;
+	list-style: none;
+	background-color: #323a45;
+	margin-top: 5px;
+	border-radius: 5px;
+}
+#login input {
+	height: 50px;
+	width: 78%;
+	background-color: #323a45;
+}
+#login img {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#login form li:nth-child(3) button{
+	width: 100%;
+	border-radius: 5px;
+	background-color: #cad2dd;
+	color: #000000;
+	height: 50px;
+	border-style: none;
+	font-family: calibri;
+	font-size: 120%;
+	font-weight: bold;
+}
+
+/************WEATHER**************/
+
+#fcast{
+	background-color: #323a45;
+	width: 63%;
+	margin-left: 14%;
+	border-radius: 5px;
+	color: #eaedf2;
+	margin-bottom: 5%;
+}
+#fcast ul li {
+	margin-right: 18%;
+	margin-top: 5%;
+}
+#fcast strong {
+	font-size: 140%;
+}
+#ftxt {
+	color:#5c646f;
+	font-style: italic;
+}
+#degree {
+	font-size: 130%;
+	text-align:center;
+}
+#fcast hr {
+	margin-top: -5%;
+	margin-left: 5%;
+	margin-right: 5%;
+
+}
+#search2 {
+	background-color: #222931;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	width: 80%;
+}
+#fcast li {
+	list-style: none;
+}
+#fcast li input {
+	width: 80%;
+	background-color: #222931;
+	border: none;
+	font-size: 100%;
+	color:#eaedf2;
+	height: 90%;
+}
+#fcast table td input {
+	width: 80%;
+	background-color: #222931;
+	border: none;
+	font-size: 100%;
+	color:#eaedf2;
+	height: 90%;
+	margin-left: 5%;
+}
+#fcast table{
+	margin-left: 6%;
+
+}
+#fcast table td:nth-child(1) {
+	font-size: 130%;
+}
+#search2 {
+	width: 95%;
+	background-color: #222931;
+	border-radius: 5px;
+	height:35px;
+	margin-left: 12%;
+	}
+/*#fcast table td br {display: none;}*/
+
+/***************video*************/
+#right video {
+	margin-top: 5%;
+	border-radius: 5px;
+	margin-right: 5%;
+
+}
+
+/*************SALLERY BOX*********/
+#sallery {
+	width: 87%;
+	background-color: #323a45;
+	border-radius: 5px;
+	margin-top: 4%;
+	height: 207px;
+	
+}
+
+#sallery  ul li {
+	margin-top: 5%;
+	width: 40%;
+	background-color: #cad2dd;
+	height: 120px;
+	margin-right: 8%;
+	border-radius: 5px;
+}
+#sallery ul li p {
+	background-color: #323a45;
+	border-radius: 5px;
+	width: 20%;
+	text-align: center;
+	color:#eaedf2;
+	font-size: 130%;
+	margin-left: 4%;
+	margin-top:40%;
+	border: 3px solid #323a45 ;
+}
+#bigbox {
+	width: 15%;
+	float: right;
+	margin-right: 10%;
+	margin-top: -3%;
+}
+#box1 {
+	width: 45%;
+	background-color: white;
+	float: left;
+	border-radius: 5px;
+	height: 5px;
+	cursor: pointer;
+}
+#box2 {
+	width: 45%;
+	background-color: white;
+	float: right;
+	border-radius: 5px;
+	height: 5px;
+	cursor: pointer;
+}
+#box1:hover{
+	background-color: #222931;
+}
+#box2:hover{
+	background-color: #222931;
+}
+ /**************RESBONSIVE*************/
+
+       /*****TABLET******/
+@media only screen and (max-width: 1030px)and (min-width:840px){
+	#menu table td:nth-child(6){
+		display: none;
+	}
+	#menu table td:nth-child(8){
+		display: none;
+	}
+	#menu table input{
+		font-size: 70%;
+	}
+	#search2{
+		margin-left: 3%;
+	}
+}
+
+      /*********MOBILE********/
+@media only screen and (max-width: 838px){
+
+	#menu table {display: none ;}
+	#menu{ float: left; margin-left:-50px; margin-top: -40px;}
+
+	#menu ul { position: fixed; display: block; }
+	#menu ul li {
+		display: block;
+		background-color: #323a45 ;
+		border-radius: 5px;
+		margin-top: 5%;
+		border: 4px solid #323a45 ;
+		font-size: 130%;
+		text-align: center;
+	}
+
+	#menu ul li:hover {border-bottom: 3px  solid rgb(51, 255, 0); color: rgb(0, 0, 0);display: block;}
+	#menu ul li a:hover { color:  rgb(51, 255, 0);}
+	#menu ul li:nth-child(1):hover {background-color: #323a45 ; border: 9px solid #323a45 ;}
+	#menu ul:hover {display: block;}
+
+
+	#searchbar{
+		display: block;
+		float: left;
+		margin-top: -60px;
+		width: 40%;	
+		background-color: #222931;
+		border-radius: 5px;
+	}
+	#searchbar input { 
+		width: 80% ;
+		background-color: #222931;
+		border-radius: 5px;
+		height:30px;
+		font-size: 70%;
+	}
+	#searchbar img {
+		background-color: #222931;
+		width: 18px;
+		margin-right: 2%;
+	}
+	#left{
+	margin-top: 70px;
+	width: 90%;
+	float: none;
+	height: 100%;
+	margin-left: 15%;
+	}
+	#right{
+	margin-left: 25%;
+	width :70%;
+	float: none;
+	height: 100%;
+	}
+	#search2{font-size: 80%;}
+	}
+@media only screen and (max-width: 480px){
+	#sallery ul li {display: block; margin-bottom:-5%; width: 67%; font-size: 80%;}
+
+
+	#sallery{ height: auto;}
+	#box1{float: right;margin-top: -24%;}
+	#box2{float: right;margin-top: -24%;}
+	#search2{width: 80%}
+}
